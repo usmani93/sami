@@ -1,0 +1,74 @@
+<html>
+<style>
+body{
+//background-color:khaki;
+background-image:url('test.png');
+text-align:center;
+font-family:'Trebuchet MS';
+font-size:20px;
+text-shadow:0 0 10px grey;
+margin:100px 0 0 10px;
+padding:0;
+color:#057;
+}
+.b{
+border:none;
+background-color:khaki;
+text-align:center;
+font-family:'Trebuchet MS';
+font-size:20px;
+text-shadow:0 0 20px gray;
+color:#057;
+}
+h1{
+color:#00f;
+text-align:center;
+font-family:'Trebuchet MS';
+text-decoration:underline;
+text-shadow: 0 0 10px gray;
+}
+form{
+margin:30px 10px 30px 510px;
+}
+form label{
+display:block;
+float:left;
+margin:1px -4px -1px 0;
+}
+input{
+float:right;
+margin:0 500px 1px 0;
+height:23px;
+}
+</style>
+<body>
+<h1> Registration Form</h1>
+<form action="test.php" method="post">
+<label>ID:</label>
+<input type="text" placeholder="eg. 003" name="id"><br>
+<label>First Name:</label>
+<input type="text" placeholder="eg. Sami" name="name"><br>
+<label>Last Name:</label>
+<input type="text" placeholder="eg. Usmani" name="lname"><br>
+<label>Father's Name:</label>
+<input type="text" placeholder="eg. Saad Usmani" name="fname"><br>
+<label>Age:</label>
+<input type="text" placeholder="eg. 21" name="age"><br>
+<label>Gender:</label>
+<input type="text" placeholder="Male / Female" name="gen"><br>
+<label>E-mail:</label>
+<input type="text" placeholder="eg. somesay@copyright.com" name="email"><br>
+<label>Institute:</label>
+<input type="text" placeholder="eg. Some Institute" name="iname"><br>
+<label>Program:</label>
+<input type="text" placeholder="eg. BS-CS" name="prog"><br>
+<label>City:</label>
+<input type="text" placeholder="eg. Karachi" name="city"><br>
+<label>State:</label>
+<input type="text" placeholder="eg. Sindh" name="state"><br>
+<label>Phone (Home):</label>
+<input type="text" placeholder="eg. 0900" name="pnh"><br>
+<input type="submit" class="b">
+</form>
+</body>
+</html>

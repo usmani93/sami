@@ -1,0 +1,44 @@
+body{
+margin:10px 0 0 100px;
+background-color:khaki;
+display:block;
+}
+table{
+
+}
+h1{
+text-align:center;
+margin:0 0px 0 0 ;
+font-family:'Trebuchet MS';
+font-size:100px;
+color:khaki;
+background-color:cyan;
+}
+.con{
+width:90%;
+height:50%;
+-moz-box-shadow:1px 1px 5px #888;
+-webkit-box-shadow:1px 1px 5px #888;
+display:block;
+}
+.nav1{
+font-size:20px;
+font-family:'Trebuchet MS';
+width:8%;
+height:auto;
+background-color:snow;
+float:left;
+}
+.nav2{
+width:80%;
+background-color:azure;
+float:center;
+height:auto;
+}
+img{
+margin:-105px 0 0 550px;
+}
+.nav3{
+height:auto;
+float:right;
+}

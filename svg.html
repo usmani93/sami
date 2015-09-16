@@ -1,0 +1,42 @@
+<html>
+<style>
+.border{
+margin:10px 0 0 550px;
+  background: -webkit-linear-gradient(0deg, blue 50%, transparent 50%), -webkit-linear-gradient(0deg, blue 50%, transparent 50%),
+ -webkit-linear-gradient(90deg, blue 50%, transparent 50%), -webkit-linear-gradient(90deg, blue 50%, transparent 50%);
+  background: linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(90deg, blue 50%, transparent 50%), 
+linear-gradient(0deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%);
+  height: 100px;
+  width: 200px;
+border-radius:100%;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+  background-position: 100px 100px, 10px 10px, 0px 1px, 200px 0px;
+  padding: 10px;
+  -webkit-animation: b,rotate 5s infinite linear;
+}
+@-webkit-keyframes b {
+  0% {
+    background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+  }
+  100% {
+    background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+  }
+}
+@-webkit-keyframes rotate {
+0% {transform:rotateX(0deg);}
+25% { transform:rotateX(360deg);}
+50% {transform:rotateY(0deg);}
+75% {transform:rotateY(360deg);}
+}
+img{
+height:100px;
+}
+body{
+text-align:center;
+}
+</style>
+<body>
+<br> <div class="border"><img src="b.jpg"></div>
+</body>
+</html>
